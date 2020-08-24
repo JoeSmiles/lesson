@@ -1,6 +1,6 @@
 package com.gaizka.demo01;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.net.URL;
 // 练习Thread,实现多线程同步下载图片
 public class TestThread2 extends Thread{
 
-    private String url; // 网络图片地址
+   /* private String url; // 网络图片地址
     private String name;    // 保存的文件名
 
     public TestThread2 (String url, String name) {
@@ -44,6 +44,6 @@ public class TestThread2 extends Thread{
                 System.out.println("IO异常，downloader方法出现问题");
             }
         }
-    }
+    }*/
 
 }
